@@ -1,0 +1,39 @@
+.popup {
+    width: 600px;
+    height: 200px;
+    position: fixed;
+    top: calc(40%);
+    left: calc(30%);
+    background-color: #FF7E7E;
+    display: flex;
+    border-radius: 25px;
+    border: 5px solid black;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.popupContent{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3.5%;
+    height: 90%;
+    width: 100%;
+    border-radius: 20px;
+    flex-direction: column;
+}
+
+.btnClosePopUp{
+    width: 20%;
+    height: 30px;
+    border-radius: 20px;
+    background-color: #FF7E7E;
+    margin-top: 10px;
+
+}
+
+.btnClosePopUp:hover{
+    background-color: #E44545;
+}

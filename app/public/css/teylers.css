@@ -1,0 +1,532 @@
+#ch1 {
+    width: 60px;
+    height: 60px;
+    background-color: #D9D9D9;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 60px;
+    margin-right: 20px;
+    font-size: larger;
+}
+
+#ch1-active{
+    width: 60px;
+    height: 60px;
+    background-color: #7C3C22;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 60px;
+    margin-right: 20px;
+    color: white;
+    font-size: larger;
+}
+
+#ch2{
+    width: 60px;
+    height: 60px;
+    background-color: #D9D9D9;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 60px;
+    font-size: larger;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+#firstChallenge{
+    text-align: center;
+    margin-bottom: 50px;
+}
+body {
+    background-color: #D8C3A5;
+    font-family: 'Mate SC';
+}
+
+#title {
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+#code {
+    text-align: center;
+    margin-top: 100px
+}
+
+#codeInput {
+    background-color: #D9D9D9;
+    max-width: 200px;
+
+    border-radius: 20px;
+}
+
+#welcome {
+    text-align: center;
+    margin-top: 100px
+}
+
+#introText {
+    text-align: center;
+    margin-top: 20px
+}
+
+#buttonLoc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#buttonLoc2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#startButton {
+    border-radius: 20px;
+    background-color: #D9D9D9;
+    width: 200px;
+    height: 100px;
+    font-size: large;
+}
+
+#line {
+    color: black;
+    size: 20px;
+    margin-top: 10px;
+}
+
+#picture {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+#pictureEnd {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#picture2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#upArrow {
+    width: 70px;
+    height: 70px;
+    margin-top: 110px;
+
+}
+
+#upArrow2{
+    width: 70px;
+    height: 70px;
+    margin-top: 40px;
+}
+
+#upArrow3{
+    width: 70px;
+    height: 70px;
+    margin-top: 180px;
+}
+
+#upArrow4{
+    width: 70px;
+    height: 70px;
+    margin-top: 120px;
+}
+
+#upArrow5{
+    width: 70px;
+    height: 70px;
+    margin-top: 230px;
+}
+
+#find{
+    background-color: #D9D9D9;
+    border-radius: 20px;
+    width: 300px;
+    height: 60px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 60px;
+    margin-top: 50px;
+}
+
+#border{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    
+}
+
+
+
+#startMapIcon {
+
+    width: 300px;
+    height: 200px;
+}
+
+#endMapIcon {
+
+    width: 300px;
+    height: 250px;
+}
+
+#inputDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#footerText {
+    text-align: center;
+    margin-top: 140px;
+
+}
+
+@font-face {
+    font-family: 'Sen';
+    /*a name to be used later*/
+    src: "../fonts/Sen-Regular.ttf";
+    /*URL to font*/
+}
+
+@font-face {
+    font-family: 'Mate SC';
+    /*a name to be used later*/
+    src: "../fonts/MateSC-Regular.ttf";
+    /*URL to font*/
+}
+
+#inputButton {
+    background-color: #D9D9D9;
+    list-style: none;
+    flex: 0 0 33.333333%;
+    height: 80px;
+}
+
+#enterButton {
+    margin-top: 10px;
+    background-color: #D9D9D9;
+    border-radius: 20px;
+    width: 100px;
+
+}
+
+#buttonDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#buttonDiv2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+
+}
+
+#keypad {
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+}
+
+#challenges {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+#map{
+    width: 380px;
+    height: 300px;
+}
+
+#mapPicture{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#solveButton{
+    margin-top: 10px;
+    background-color: #D9D9D9;
+    border-radius: 20px;
+    width: 300px;
+    height: 60px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 60px;
+    animation: glowing 1300ms infinite;
+    font-size: larger;
+    border-style: none;
+
+}
+
+#challengeInfo{
+    text-align: center;
+
+}
+
+#answerLabel{
+    text-align: center;
+    margin-top: 40px;
+
+}
+
+#text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#answer{
+    height: 300px;
+    width: 350px;
+}
+
+#buttonSubmit{
+    display: flex;
+    align-items: center;
+    justify-content:right;
+    
+}
+
+#submitButton{
+    margin-right: 30px;
+    margin-top: 30px;
+    background-color: #D9D9D9;
+    border-radius: 20px;
+    height: 50px;
+    width: 90;
+
+}
+
+#hint1,#hint2{
+    font-size: 30px;
+    margin-left: 30px;
+
+}
+
+#hide,#hide2{
+    display: none;
+    font-size: 30px;
+    background-color: #E44545;
+}
+
+#ch1-active-Wrong{
+    width: 60px;
+    height: 60px;
+    background-color: #AA0000;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 60px;
+    margin-right: 20px;
+    color: white;
+    font-size: larger;
+}
+
+#ch2-active-Wrong{
+    width: 60px;
+    height: 60px;
+    background-color: #AA0000;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 60px;
+    
+    color: white;
+    font-size: larger;
+}
+
+#wrongText{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+#textWr{
+    background-color: #AA0000;
+    border-radius: 20px;
+    width: 300px;
+    height: 150px;
+    text-align:center;
+    vertical-align: middle;
+    line-height: 50px;
+    
+}
+
+#returnButtonLoc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#returnButton{
+    background-color: #D9D9D9;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    display: block;
+    margin-top: 30px;
+    font-size: larger;
+}
+
+#correctText{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+#textR{
+    background-color: #005C00;
+    border-radius: 20px;
+    width: 300px;
+    height: 150px;
+    text-align:center;
+    vertical-align: middle;
+    line-height: 50px;
+}
+
+#ch1-active-Right{
+    width: 60px;
+    height: 60px;
+    background-color: #005C00;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 60px;
+    margin-right: 20px;
+    
+    font-size: larger;
+    color: white;
+}
+
+#ch2-active{
+    width: 60px;
+    height: 60px;
+    background-color: #7C3C22;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 60px;
+    
+    color: white;
+    font-size: larger; 
+}
+
+#ch2-active-Right{
+    width: 60px;
+    height: 60px;
+    background-color: #005C00;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 60px;
+    
+    color: white;
+    font-size: larger;
+}
+
+#explanation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#explText{
+    border-radius: 20px;
+    width: 300px;
+    height: 150px;
+    text-align:center;
+   margin-top: 40px;
+}
+
+#codeText{
+    text-align: center;
+    margin-top: 20px;
+}
+
+#factsTitle{
+    text-align: center;
+    margin-top: 40px;
+}
+
+#codeEnterText{
+    margin-top: 20px;
+    text-align: center;
+}
+
+#codeSubmitButton{
+    background-color: #D9D9D9;
+    border-radius: 20px;
+    height: 50px;
+    width: 200px;
+    margin-top: 20px;
+    
+    font-size: larger;
+}
+
+#complete{
+    text-align: center;
+    margin: 20px;
+
+}
+
+#secretText{
+    text-align: center;
+    background-color: #005C00;
+    margin: 15px;
+    border-radius: 20px;
+    padding: 5px;
+    color: white;
+}
+
+#thankYou{
+    text-align: center;
+    margin-top: 150px;
+    font-size: xx-large;
+}
+
+#close{
+    text-align: center;
+    margin-top: 90px;
+}
+
+
+
+
+
+@keyframes glowing {
+    0% {
+      background-color: #FF7E7E;
+      box-shadow: 0 0 3px #f97777;
+    }
+    50% {
+      background-color: #E44545;
+      box-shadow: 0 0 10px #cf5757;
+    }
+    100% {
+      background-color: #FF7E7E;
+      box-shadow: 0 0 3px #e33d3d;
+    }
+  }
+

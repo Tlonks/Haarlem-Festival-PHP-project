@@ -1,0 +1,246 @@
+/* Defines the structure of the time table */
+.timeTableStructure {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    padding-top: 2.5%;
+}
+
+/* shows the title of the time table including succes and error messages */
+.timeTableTitle {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-bottom: 2.5%;
+    padding-right: 10%;
+}
+
+.timeTableTitle .errorMessage {
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+}
+
+.timeTableDateStructure {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.timeTableDateInformationStructure {
+    display: flex;
+    width: 80%;
+}
+
+/* For all the date information above the table */
+.formTimeTable {
+    display: flex;
+    margin-bottom: 0;
+    padding-right: 1%;
+}
+
+.btnTimeTableDate {
+    min-height: 60px;
+    border-bottom: 0px;
+    border-radius: 10px 10px 0px 0px;
+    background-color: #FF7E7E;
+    width: 200%;
+    border-top: 2.5px solid black;
+    border-left: 2.5px solid black;
+    border-right: 2.5px solid black;
+}
+
+.btnTimeTableDate:hover {
+    background-color: #E44545;
+}
+
+.btnTimeTableDateRed {
+    min-height: 60px;
+    border-bottom: 0px;
+    border-radius: 10px 10px 0px 0px;
+    background-color: #E44545;
+    width: 200%;
+    border-top: 2.5px solid black;
+    border-left: 2.5px solid black;
+    border-right: 2.5px solid black;
+}
+
+.btnTimeTableInformation {
+    min-height: 60px;
+    border-bottom: 0px;
+    border-radius: 10px 10px 0px 0px;
+    background-color: #FF7E7E;
+    width: 200%;
+    border-top: 2.5px solid black;
+    border-left: 2.5px solid black;
+    border-right: 2.5px solid black;
+}
+
+.btnTimeTableInformation p {
+    font-size: 150%;
+    margin-bottom: 0;
+}
+
+.timeTableDateStructure {
+    width: 100%;
+    display: flex;
+}
+
+.timeTableDateInformationStructure {
+    display: flex;
+    width: 80%;
+}
+
+.btnTimeTableInformation {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* the columns of the timetable */
+.timeTableColumns {
+    width: 100%;
+}
+
+/* gives the background and size to the table */
+.TimeTable {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-left: 2.5px solid black;
+}
+
+/* the following code is for the header of the table */
+.TimeTableHeader {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FF7E7E;
+    border-bottom: 2.5px solid black;
+    border-top: 2.5px solid black;
+}
+
+.TimeTableHeaderItem {
+    width: 20%;
+    min-height: 75px;
+    border-right: 2.5px solid black;
+    font-size: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.TimeTableHeaderItem:last-child {
+    width: 51px;
+}
+
+.TimeTableHeaderItem p {
+    font-size: 110%;
+    margin-bottom: 0;
+}
+
+/* Scroll bar for every time table */
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+.scrollBar {
+    scrollbar-width: auto;
+    scrollbar-color: #b9b9b9 #ffffff;
+    height: 300px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    border-right: 2.5px solid black;
+    border-bottom: 2.5px solid black;
+    background-color: white;
+}
+
+/* Chrome, Edge, and Safari */
+.scrollBar::-webkit-scrollbar {
+    width: 30px;
+}
+
+.scrollBar::-webkit-scrollbar-track {
+    background: #ffffff;
+}
+
+.scrollBar::-webkit-scrollbar-thumb {
+    background-color: #b9b9b9;
+    border-radius: 20px;
+    border: 8px solid #ffffff;
+}
+
+/* the following code is for the body of the table */
+.TimeTableBody {
+    display: flex;
+    justify-content: space-between;
+}
+
+.TimeTableBodyItem {
+    width: 100%;
+    border-right: 2.5px solid black;
+    border-bottom: 2.5px solid black;
+    align-items: center;
+    min-height: 50px;
+    background-color: white;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 0;
+}
+
+.TimeTableBody:last-child {
+    border-bottom: 0;
+}
+
+.TimeTableBodyItem p {
+    margin-bottom: 0;
+}
+
+.btnTicketInformationStyle {
+    display: flex;
+    width: 100%;
+    border-radius: 5px;
+    height: 30px;
+    justify-content: center;
+    font-size: 90%;
+}
+
+/* displays the information when clicked on add ticket */
+.addTicketInformation {
+    display: flex;
+    width: 80%;
+    height: 80%;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5%;
+    border-radius: 20px;
+}
+
+.ticketInformationStyle {
+    display: flex;
+    width: 100%;
+    border-radius: 5px;
+    height: 30px;
+    align-items: center;
+}
+
+.ticketInformationStyle input {
+    margin: 2%;
+    width: 45%;
+}
+
+/* The button for the time table to buy tickets */
+.btnAddTicket {
+    width: 80%;
+    height: 60%;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    background-color: #0089D7;
+    border: 0;
+    color: white;
+}

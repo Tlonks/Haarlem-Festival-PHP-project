@@ -1,0 +1,178 @@
+body {
+  background-color: #ede6e6;
+  height: 100%;
+  font-family: "Sen";
+}
+
+@font-face {
+  font-family: "Sen";
+  /*a name to be used later*/
+  src: "../fonts/Sen-Regular.ttf";
+  /*URL to font*/
+}
+
+#danceIntro {
+  margin-top: 5%;
+}
+
+#danceIntroText p {
+  font-size: 25px;
+}
+
+#danceIntroText {
+  padding: 30px;
+}
+
+#danceIntroText img {
+  margin-top: 30px;
+}
+
+#danceInfo {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.danceIntroText {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  padding: 30px;
+}
+
+.danceIntroText p {
+  font-size: 150%;
+  margin-left: 100px;
+}
+
+#imageContentCards {
+  border-radius: 20px;
+}
+
+/* The big red button on the dance home page */
+.btnDanceMainPage {
+  background-color: #ff7e7e;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 20px;
+  font-size: 110%;
+  border: 0;
+}
+.btnDanceMainPage p {
+  margin-bottom: 0;
+  font-weight: bold;
+}
+.btnDanceMainPageInfo {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+}
+.btnDanceMainPage:hover {
+  background-color: #e44545;
+}
+
+.btnDanceMainPageIcon {
+  width: 25%;
+  padding-left: 5%;
+}
+
+#danceItems {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.lineup {
+  display: flex !important;
+  justify-content: center !important;
+  margin-top: 50px;
+}
+
+.top_image {
+  background-color: blue;
+  border-radius: 30px !important;
+  width: 600px;
+  height: 400px;
+  background-size: cover;
+  background-position: center center;
+}
+
+#Site_title {
+  margin-top: 100px;
+}
+
+#header_text {
+  background-color: white;
+  border-radius: 20px;
+  width: 600px;
+  height: 284px;
+  margin-left: 20px;
+}
+
+#row_top {
+  margin-top: 200px;
+}
+
+#top_text {
+  font-weight: bold;
+  font-size: 31px;
+}
+
+.button_schedule {
+  width: 600px;
+  margin-left: -10px;
+  border-radius: 20px;
+  height: 100px;
+  font-weight: bold;
+  font-size: 29px;
+  background-color: #ff7e7e;
+  margin-top: 40px;
+}
+
+.button_schedule:hover {
+  background-color: #e44545;
+  cursor: pointer;
+}
+
+.perf_bands_h3 {
+  margin-top: 50px;
+}
+
+#performing_bands_container {
+  display: flex;
+  justify-content: center;
+}
+
+.scheduleButton {
+  margin-top: 60px;
+}
+
+.lineup_h2 {
+  margin-top: 50px;
+}
+
+.danceEventInformation {
+  display: flex;
+  width: 50%;
+  margin-bottom: 2.5%;
+}
+
+.venueImage {
+  border-radius: 30px;
+}
+
+.dancePageEvents {
+  margin-top: 2.5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-left: 7%;
+  margin-right: 5%;
+}
+
+.danceEventHeader {
+  display: flex;
+  width: 45%;
+}

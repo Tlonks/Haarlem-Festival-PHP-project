@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'Sen';
+    /*a name to be used later*/
+    src: "../fonts/Sen-Regular.ttf";
+    /*URL to font*/
+  }
+
+  header {
+    font-family: 'Sen';
+  }
+
+  body{
+    background-color: #EDE6E6;
+    position: relative;
+    min-height: 100vh;
+  }

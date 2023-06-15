@@ -1,0 +1,75 @@
+@font-face {
+  font-family: "Sen";
+  /*a name to be used later*/
+  src: "../fonts/Sen-Regular.ttf";
+  /*URL to font*/
+}
+
+body {
+  background-color: #ede6e6;
+}
+
+#checkoutButton {
+  background-color: #ff7e7e;
+}
+
+#checkoutButton:hover {
+  background-color: #e44545;
+}
+
+body {
+  background-color: #ede6e6;
+  font-family: "Sen";
+}
+
+#total{
+  margin-top: 20px;
+  background-color: white;
+  border-radius: 20px;
+  margin-left: 10px;
+  padding: 10px;
+}
+
+#title {
+  margin-top: 20px;
+}
+
+#paymentOptions {
+  width: 150px;
+  height: 110px;
+  border-radius: 20px;
+  margin-right: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#paymentOptions {
+  display: flex;
+  flex-direction: row;
+}
+
+[type="radio"] {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* IMAGE STYLES */
+[type="radio"] + img {
+  cursor: pointer;
+}
+
+/* CHECKED STYLES */
+[type="radio"]:checked + img {
+  outline: 2px solid #f00;
+}
+
+.tableCheckout {
+  margin: 75px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}

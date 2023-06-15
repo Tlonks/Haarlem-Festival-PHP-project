@@ -1,0 +1,77 @@
+.headerDetails {
+  margin-top: 150px;
+}
+
+.headerText {
+  font-size: 30px;
+}
+
+.scheduled_appearances_Table {
+  width: 100%;
+  background-color: #ffffff;
+  border-collapse: collapse;
+  border-width: 1px;
+  border-color: #000000;
+  border-style: solid;
+  border-radius: 20px;
+  color: #000000;
+  overflow: hidden;
+  font-weight: bolder;
+}
+
+.scheduled_appearances_Table td,
+.scheduled_appearances_Table th {
+  border-width: 1px;
+  border-color: #000000;
+  border-style: solid;
+  text-align: center;
+
+  padding: 5px;
+}
+
+.scheduled_appearances_Table thead {
+  background-color: #ff7e7e;
+}
+
+th:nth-child(5) {
+  width: 150px;
+}
+
+.buy_button {
+  border-radius: 20px;
+  height: 35px;
+  width: 133px;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block; /* or block, depending on your layout */
+}
+
+.button-container {
+  position: absolute;
+  top: 90%; /* position buttons 50% from the top */
+}
+
+/* customize the buttons as needed */
+.button-container button {
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+/* show buttons on hover */
+.button-container:hover button {
+  opacity: 1;
+}
+
+
+
+/* Code below is for the time table */
+.TimeTableHeaderItem:last-child{
+  width: 46px !important;
+}
+
+.scrollBar{
+  height: 200px !important;
+}

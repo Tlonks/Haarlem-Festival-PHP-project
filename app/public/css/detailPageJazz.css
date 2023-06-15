@@ -1,0 +1,116 @@
+body {
+  background-color: #ede6e6;
+  height: 100%;
+  font-family: "Sen";
+}
+
+@font-face {
+  font-family: "Sen";
+  /*a name to be used later*/
+  src: "../fonts/Sen-Regular.ttf";
+  /*URL to font*/
+}
+
+.HeaderImage {
+  width: 100%;
+  height: 100%;
+  margin-top: 100px;
+}
+.card {
+  width: 50%;
+  font-size: 27px;
+  border-radius: 10px;
+  font-weight: bolder;
+}
+
+.carreer_title {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-weight: bolder;
+}
+
+.middle-image {
+  width: 50%;
+  height: 50%;
+}
+
+.bottom-image {
+  margin-top: 100px;
+  width: 100%;
+}
+
+.tracks_intro {
+  margin-top: 30px;
+  font-weight: bolder;
+}
+
+.container_tracks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.iframe-container {
+  display: flex;
+  width: 260px;
+  margin-right: 490px;
+  justify-content: space-evenly;
+}
+
+.iframe-container:last-child {
+  margin-right: 0;
+}
+
+.tracks {
+  border-radius: 20px;
+}
+
+.scheduled_title {
+  font-weight: bolder;
+  margin-top: 100px;
+}
+
+.scheduled_appearances_Table {
+  width: 100%;
+  background-color: #ffffff;
+  border-collapse: collapse;
+  border-width: 1px;
+  border-color: #000000;
+  border-style: solid;
+  border-radius: 20px;
+  color: #000000;
+  overflow: hidden;
+  font-weight: bolder;
+}
+
+.scheduled_appearances_Table td,
+.scheduled_appearances_Table th {
+  border-width: 1px;
+  border-color: #000000;
+  border-style: solid;
+  text-align: center;
+
+  padding: 5px;
+}
+
+.scheduled_appearances_Table thead {
+  background-color: #ff7e7e;
+}
+
+th:nth-child(5) {
+  width: 150px;
+}
+
+.buy_button {
+  border-radius: 20px;
+  height: 35px;
+  width: 133px;
+}
+
+.free_button {
+  border-radius: 20px;
+  height: 35px;
+  width: 133px;
+  background-color: gray;
+  cursor: not-allowed !important;
+}

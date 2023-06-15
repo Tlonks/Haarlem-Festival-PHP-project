@@ -1,0 +1,185 @@
+#timeSlotsTable {
+  width: 59%;
+  border-radius: 100px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#tableBr {
+  display: flex;
+  width: 60%;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  border-top: 0;
+  border-left: 0;
+  border-bottom: 0;
+  justify-content: space-evenly;
+  text-align: center;
+  font-size: 20px;
+}
+
+#tableBr,
+#tableBr:hover {
+  width: 100%;
+  color: black;
+  border-color: black;
+}
+
+#tableBr:hover {
+  background-color: #ff7e7e;
+}
+
+#tableBr:first-child {
+  border-radius: 20px 0px 0px 20px;
+}
+
+#tableBr:last-child {
+  border-radius: 0px 20px 20px 0px;
+  border-style: none;
+}
+
+#whiteSquare {
+  background-color: white;
+  margin-top: 2%;
+  width: 100%;
+  height: 650px;
+  border-radius: 20px;
+}
+
+#reservationSystemStructure {
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  margin-right: 7%;
+  margin-left: 7%;
+}
+
+#itemsWhiteSquare {
+  margin: 3%;
+}
+
+#amountOfPeople {
+  width: 60%;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  font-size: 20px;
+}
+
+#tableBorder14,
+#tableBorder1,
+.tableBorder {
+  width: 7.3%;
+  color: black;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+}
+
+.tableBorder {
+  margin-left: -15px;
+}
+
+#tableBorder14,
+#tableBorder14:hover {
+  margin-left: -15px;
+  border-radius: 0px 20px 20px 0px;
+}
+
+#tableBorder1,
+#tableBorder1:hover {
+  border-radius: 20px 0px 0px 20px;
+}
+
+.tableBorder:hover,
+.tableBorder:active,
+#tableBorder14:hover,
+#tableBorder14:active,
+#tableBorder1:hover,
+#tableBorder14:hover {
+  color: black;
+  background-color: #ff7e7e;
+}
+
+#specialRequests {
+  border-radius: 20px;
+  height: 80px;
+  vertical-align: top;
+  color: black;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  margin-right: 5%;
+}
+
+#makeReservationBtn {
+  width: 40%;
+  margin-right: 5%;
+  margin-left: 5%;
+  background-color: #ff7e7e;
+  border-radius: 20px;
+  font-size: 25px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+#makeReservationBtn:hover,
+#makeReservationBtn:active {
+  color: black;
+  background-color: #e44545;
+}
+
+#btnArrow {
+  transform: rotate(180deg);
+}
+
+.btnAndText {
+  display: flex;
+  align-items: flex-end;
+}
+
+#errorMessage {
+  color: red;
+}
+
+.conditions {
+  height: 100px;
+}
+
+#dateTable {
+  width: 61%;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  font-size: 20px;
+  margin-left: 5px;
+}
+
+#date:first-child {
+  border-radius: 20px 0px 0px 20px;
+}
+
+#date:last-child {
+  border-radius: 0px 20px 20px 0px;
+}
+
+#date,
+#date:hover {
+  width: 25%;
+  color: black;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  margin-left: -40px;
+}
+
+#date:hover {
+  background-color: #ff7e7e;
+}

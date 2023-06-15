@@ -1,0 +1,17 @@
+#backArrow {
+  background-color: #ff7e7e;
+  border-radius: 25px;
+  margin-left: 1%;
+  color: black;
+  position: sticky;
+  top: 1%;
+  max-width: fit-content;
+}
+
+#backArrow:hover {
+  background-color: #e44545;
+}
+
+#container {
+  position: relative;
+}

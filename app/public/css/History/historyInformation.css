@@ -1,0 +1,51 @@
+.sightInformationStructure {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 5%;
+flex-wrap: wrap;
+}
+
+.sightHeader {
+    display: flex;
+    width: 40%;
+}
+
+.contentText{
+    display: flex;
+    width: 40%;
+    margin-top: 2.5%;
+    font-size: 125%; 
+}
+
+.contentinformation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2.5%;
+
+}
+
+.contentLargeText{
+    display: flex;
+    justify-content: center;
+    width: 87%;
+    margin-top: 2.5%;
+    font-size: 125%;
+
+}
+
+.content {
+    display: flex;
+    width: 40%;
+    margin-top: 2.5%;
+}
+
+.fillDiv {
+    display: flex;
+    width: 40%;
+}
+
+.mapOfHaarlem{
+    margin-top: 2.5%;
+}

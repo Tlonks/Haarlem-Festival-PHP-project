@@ -1,0 +1,12 @@
+/* This defines what kind of structure the page will be build off */
+.structureOfHistoryTimeTable {
+    display: flex;
+    justify-content: center;
+}
+
+#historyScrollBar{
+    height: 250px !important;
+}
+
+
+

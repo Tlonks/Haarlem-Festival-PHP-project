@@ -1,0 +1,84 @@
+#yummyIntro {
+  margin-top: 5%;
+}
+
+#yummyIntroText p {
+  font-size: 110%;
+}
+
+#yummyInfo {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#yummyIntroText {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+#yummyItems {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+#yummyRestaurant {
+  margin-top: 2.5%;
+  display: flex;
+  width: 40%;
+}
+
+#speechbubble {
+  width: 50%;
+  background-color: white;
+  border-radius: 0px 5% 5% 5%;
+  padding: 3%;
+}
+
+#speechbubblePoint {
+  width: 4%;
+  height: 10%;
+  margin-bottom: 10px;
+}
+
+#speechbubbleText {
+  font-size: 65%;
+}
+
+.seeMoreButton {
+  background-color: #ff7e7e;
+  border-radius: 100px;
+  font-size: 90%;
+  padding: 2px;
+  padding-left: 10px;
+  padding-right: 5px;
+  margin-left: auto;
+  margin-right: 0;
+  display: flex;
+}
+
+.seeMoreButton:hover,
+.backArrow:hover {
+  background-color: #e44545;
+}
+
+#seeMoreArrow {
+  transform: rotate(180deg);
+  margin-left: 10px;
+}
+
+#stars {
+  margin-left: -2px;
+  margin-top: -5px;
+}
+
+.fillDiv {
+  display: flex;
+  width: 40%;
+}
+
+#imageContentCards {
+  border-radius: 14px;
+}

@@ -1,0 +1,95 @@
+body {
+    background-image: url('../images/netherlands-272474.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Sen';
+}
+
+@media only screen and (max-width: 4000px) {
+
+    #cardLogin {
+        background-color: #EDE6E6;
+        width: 400px;
+        margin-top: 200px;
+        border-radius: 20px;
+        font-family: 'Sen';
+
+    }
+
+}
+
+@media only screen and (max-width: 400px) {
+
+    #cardLogin {
+        width: auto;
+        margin-top: 200px;
+    }
+}
+
+
+@font-face {
+    font-family: 'Sen';
+    /*a name to be used later*/
+    src: "../fonts/Sen-Regular.ttf";
+    /*URL to font*/
+}
+
+#backButton{
+    margin-left: 40px;
+}
+
+#form3Example1c{
+    width: 400px;
+}
+
+#form3Example3c{
+    width: 400px;
+}
+
+#form3Example4c{
+    width: 400px;
+}
+
+#items{
+    margin-left: 60px;
+}
+#registerBackground{
+    background-color: #EDE6E6;
+    width: 600px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+#succesLabel{
+    padding: 5px;
+    margin-left: 10px;
+}
+
+#introPic{
+    border-radius: 20px;
+}
+
+#loginButton {
+    background-color: #FF7E7E;
+    margin-top: 10px;
+    max-width: 400px;
+}
+
+#loginButton:hover {
+    background-color: #E44545;
+}
+
+#registrate {
+    font-size: small;
+}
+
+#forgotPassword {
+    font-size: small;
+}
+
+#loginText {
+    text-align: center;
+    margin-bottom: 20px;
+}

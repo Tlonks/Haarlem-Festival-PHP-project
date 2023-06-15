@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "Sen";
+  /*a name to be used later*/
+  src: "../fonts/Sen-Regular.ttf";
+  /*URL to font*/
+}
+
+body {
+  background-color: #ede6e6;
+}
+
+.btnCheckOut {
+  background-color: #ff7e7e;
+}
+
+.btnCheckOut:hover {
+  background-color: #e44545;
+}
+
+#btnShare {
+  margin: auto auto auto 10px;
+}

@@ -1,0 +1,38 @@
+body {
+    background-color: #ede6e6;
+}
+
+.confirmationStucture {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-top: 5%;
+    flex-direction: column;
+}
+.confirmationTextBundle{
+    margin-top: 2.5%;
+}
+.confirmationText{
+    display: flex;
+    justify-content: center;
+    margin-top: 2.5%;
+}
+
+
+.confirmationCheckImg {
+    width: 10%;
+}
+
+.btnConfirmationHome{
+    margin-top: 5%;
+    border-radius: 20px;
+    width: 15%;
+    height: 50px;
+    background-color: #FF7E7E;
+    font-size: 125%;
+    font-weight: bold;
+    border-style: none;
+}
+.btnConfirmationHome:hover {
+    background-color: #E44545;
+}

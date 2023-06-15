@@ -1,0 +1,33 @@
+#editFields {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#headerPicture {
+    width: 400px;
+    height: 250px;
+    margin-right: 20px;
+}
+
+#form {
+
+    padding: 20px;
+
+
+}
+
+.card {
+    margin: 52px;
+}
+
+#pictureField {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.title {
+    margin-bottom: 30px;
+}

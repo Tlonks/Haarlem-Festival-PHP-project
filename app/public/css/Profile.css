@@ -1,0 +1,72 @@
+body {
+    
+    font-family: 'Sen';
+}
+
+@font-face {
+    font-family: 'Sen';
+    /*a name to be used later*/
+    src: "../fonts/Sen-Regular.ttf";
+    /*URL to font*/
+}
+
+#registerBackground{
+    margin-top: 50px;
+
+}
+#form3Example1c{
+    width: 500px;
+}
+
+#items{
+    margin-left:100px;
+}
+
+#editButton{
+    border-radius: 20px;
+    width: 100px;
+    background-color: #FF7E7E;
+    margin-top: 20px;
+}
+
+#submitButton{
+    border-radius: 20px;
+    width: 100px;
+    background-color: #FF7E7E;
+    
+}
+
+#changeButton{
+    border-radius: 20px;
+    width: 200px;
+    background-color: #FF7E7E;
+}
+#backButton{
+    border-radius: 20px;
+    width: 200px;
+    background-color: #FF7E7E;
+    margin-left: 40px;
+}
+
+#editButton:hover{
+    background-color: #E44545;
+}
+
+#submitButton:hover{
+    background-color: #E44545;
+}
+
+#changeButton:hover{
+    background-color: #E44545;
+}
+
+#backButton:hover{
+    background-color: #E44545;
+}
+
+
+
+#img{
+    border-radius: 20px;
+    max-height: 400px;
+}

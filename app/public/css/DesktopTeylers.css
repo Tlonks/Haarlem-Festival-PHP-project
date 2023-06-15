@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'Sen';
+    /*a name to be used later*/
+    src: "../fonts/Sen-Regular.ttf";
+    /*URL to font*/
+}
+
+.teylersStructure{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.teylersInfo{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.teylersBeginText{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 40%;
+}
+
+body {
+    
+    font-family: 'Sen';
+}
+
+.teylersBeginText h2 {
+    font-weight: bold;
+}
+
+.teylersBeginText p {
+    font-size: 110%;
+}
+
+#mainImage{
+    border-radius: 20px;
+    max-height: 400px;
+}
+
+#scavengerButton{
+    background-color: #FF7E7E;
+    width: 600px;
+    text-align: start;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    padding: 2.5%;
+}
+
+#scavengerButton:hover {
+    background-color: #E44545;
+}
+
+#symbolPhone{
+    font-size: 48px;
+    align-items: end;
+}

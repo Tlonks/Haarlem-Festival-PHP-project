@@ -1,0 +1,281 @@
+/* Defines the entire mainpage structure */
+.homePageStructure {
+    padding-top: 5%;
+}
+
+
+/* this is for the begin text of the main page */
+.homePageInformation {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.mainPageIntroText {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+}
+
+.mainPageIntroText h1 {
+    font-weight: bold;
+}
+
+.mainPageIntroText p {
+    font-size: 150%;
+}
+
+/* This is for all the events displayed on the main page */
+.mainPageEvents {
+    margin-top: 2.5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.mainpageEventInformation {
+    display: flex;
+    width: 40%;
+    margin-bottom: 2.5%;
+
+}
+
+.speech {
+    width: 4%;
+    height: 10%;
+    margin-bottom: 10px;
+}
+
+.speechbubble {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background-color: white;
+    border-radius: 0px 5% 5% 5%;
+    padding: 3%;
+    justify-content: space-between;
+}
+
+#seeMoreButton {
+    background-color: #FF7E7E;
+    border-radius: 100px;
+    display: flex;
+    font-size: 90%;
+    padding: 2px;
+    padding-left: 10px;
+    padding-right: 5px;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+#seeMoreButton:hover {
+    background-color: #E44545;
+}
+
+#seeMoreArrow {
+    transform: rotate(180deg);
+    margin-left: 10px;
+}
+
+.eventHeader{
+    display: flex;
+    width: 45%;
+}
+
+/* This creates a invisible div that makes sure the outlining is correct */
+.fillDiv {
+    display: flex;
+    width: 40%;
+}
+
+
+/* Manages the schedule of events table on the main page */
+.mainPageScheduleOfEvents {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* -----------Time table main page jazz and dance */
+#TimeTableHeaderJazzDance .TimeTableHeaderItem:last-child{
+    width: 45px !important;
+}
+
+
+
+
+/* Manages the starting locations of some events */
+.mainPageStartingLocation {
+    margin-top: 2.5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+.startingLocations {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.singleLocation {
+    display: flex;
+    width: 40%;
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-height: 200px;
+}
+
+.startingLocationHeader {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+}
+
+.startingLocationHeader h2 {
+    margin-bottom: 0;
+}
+
+.startingLocationInformation {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 2.5%;
+}
+
+.startingLocationInformation div:last-child {
+    border-left: 3.5px solid black;
+}
+
+
+.startingLocationLeftSide {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    align-items: self-end;
+    padding-right: 3.5%;
+    min-height: 75px;
+    justify-content: space-around;
+}
+
+.startingLocationRightSide {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    align-items: self-start;
+    padding-left: 3.5%;
+    min-height: 75px;
+    justify-content: space-around;
+}
+
+.startingLocationLeftSide p {
+    margin-bottom: 0;
+}
+
+.startingLocationRightSide p {
+    margin-bottom: 0;
+
+}
+
+/* Manages the map of events on the main page*/
+.mainPageMapOfEvents {
+    margin-top: 2.5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.imageMapOfHaarlem {
+    width: 93%;
+}
+
+/* This will display all of the hovered items on the map */
+
+area[alt=molenAdriaan]:hover {
+    content: '';
+    background-image: url('/images/homePage/MapOfHaarlem/Molen de Adriaan.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: block;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 125px;
+    left: 955px;
+}
+
+
+/* Contains the contentCards for the footer */
+
+.contentCardsFooterStructure {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 5%;
+}
+
+
+.footerContentCard {
+    display: flex;
+    flex-direction: column;
+    width: 12%;
+    justify-content: space-between;
+}
+
+.footerContentCard a {
+    color: black;
+}
+
+.footerContentCard h3 {
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+
+.btnFooterContentCard {
+    background-color: white;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    border-radius: 100px;
+}
+
+
+.btnFooterContentCard p {
+    margin-bottom: 0;
+}
+
+.btnFooterContentCard:hover {
+    background-color: #E44545;
+    color: black;
+}
+
+.sightInformationBtn{
+    background-color: #FF7E7E;
+    color: black;
+    width: 80%;
+    border-radius: 20px;
+}
+
+.sightInformationBtn:hover {
+    background-color: #E44545;
+    color: black;
+    width: 80%;
+    border-radius: 20px;
+}

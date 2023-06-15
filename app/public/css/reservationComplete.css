@@ -1,0 +1,64 @@
+#whiteSquare {
+  background-color: white;
+  margin-top: 2%;
+  width: 100%;
+  height: 650px;
+  display: flex;
+  border-radius: 20px;
+  justify-content: center;
+}
+
+#reservationSystemStructure {
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  margin-right: 7%;
+  display: flex;
+  margin-left: 7%;
+}
+
+#itemsWhiteSquare {
+  margin: 3%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+#title {
+  font-size: 60px;
+}
+
+#text {
+  width: 50%;
+  font-size: 40px;
+  text-align: right;
+}
+
+#data {
+  width: 50%;
+  font-size: 40px;
+  margin-left: 30px;
+  text-align: left;
+}
+
+#homepageBtn {
+  margin-top: 5%;
+  width: 30%;
+  margin-left: 35%;
+  background-color: #ff7e7e;
+  border-radius: 20px;
+  font-size: 25px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-size: 30px;
+}
+
+#homepageBtn:hover,
+#homepageBtn:active {
+  color: black;
+  background-color: #e44545;
+}

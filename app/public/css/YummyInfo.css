@@ -1,0 +1,106 @@
+#MrAndMrsIntro {
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5%;
+}
+
+#MrAndMrsInfo {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+
+#MrAndMrsIntroText {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  justify-content: space-between;
+}
+
+#MrAndMrsIntroText h2 {
+  font-weight: bold;
+}
+
+#MrAndMrsIntroText p {
+  font-size: 110%;
+}
+
+#makeReservationButton {
+  background-color: #ff7e7e;
+  width: fit-content;
+  border-radius: 200px;
+  font-size: 160%;
+  display: flex;
+  padding: 10px;
+  padding-left: 22px;
+}
+
+#makeReservationButton:hover {
+  background-color: #e44545;
+}
+
+#makeReservationArrow {
+  transform: rotate(180deg);
+  margin-left: 10px;
+}
+
+.whiteSquare {
+  width: 50%;
+  background-color: white;
+  border-radius: 15px;
+  padding: 3%;
+  text-align: center;
+}
+
+.structureSquares {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 5%;
+}
+
+#timeSlotsTable {
+  border-radius: 100px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#tableBorder {
+  border-top: 0px;
+  border-bottom: 0px;
+  width: 100%;
+  border-style: solid;
+  border-color: black;
+  border-left: 2px;
+}
+
+#tableBorder:last-child {
+  border-style: none;
+}
+
+#line {
+  border-style: solid;
+  border-width: 0.5px;
+  transform: rotate(90deg);
+  border-color: black;
+  width: 100px;
+  margin-left: 265px;
+  margin-top: -45px;
+}
+
+.links,
+.links:link,
+.links:hover {
+  color: black;
+}
+
+#emptySpace {
+  height: 30%;
+}
+
+#colorWhite {
+  color: white;
+}

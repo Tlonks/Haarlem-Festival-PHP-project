@@ -1,0 +1,53 @@
+@media only screen and (max-width: 450px) {
+    body {
+        background-color: #EDE6E6;
+        font-family: 'Sen';
+    }
+
+    #preview {
+        width: 400px;
+        height: 400px;
+        border-radius: 20px;
+
+    }
+
+    @font-face {
+        font-family: 'Sen';
+        /*a name to be used later*/
+        src: "../fonts/Sen-Regular.ttf";
+        /*URL to font*/
+    }
+
+    #title {
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    #sub{
+        display: flex;
+        justify-content: center;
+    }
+    #scan{
+        font-size: 40px;
+    }
+
+    #vid {
+        display: flex;
+        justify-content: center;
+    }
+
+    #feedback{
+        display: flex;
+        justify-content: center;
+    }
+
+    #feedbacktext{
+        
+        font-size: 30px;
+    }
+    #loc{
+        display: flex;
+        justify-content: center;
+    }
+}

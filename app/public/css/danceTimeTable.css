@@ -1,0 +1,15 @@
+body {
+    background-color: #EDE6E6;
+}
+
+.structureOfDanceTimeTable {
+    display: flex;
+    justify-content: center;
+}
+
+.scrollBar{
+    height: 200px !important;
+}
+.TimeTableHeaderItem:last-child{
+    width: 45px !important;
+}

@@ -1,0 +1,67 @@
+body {
+  background-color: #ede6e6;
+  height: 100%;
+  font-family: "Sen";
+}
+
+@font-face {
+  font-family: "Sen";
+  /*a name to be used later*/
+  src: "../fonts/Sen-Regular.ttf";
+  /*URL to font*/
+}
+
+/* .TimeTable {
+  width: 100%;
+  background-color: #ffffff;
+  border-collapse: collapse;
+  border-width: 1px;
+  border-color: #000000;
+  border-style: solid;
+  border-radius: 20px;
+  color: #000000;
+  overflow: hidden;
+  font-weight: bolder;
+}
+
+.TimeTable td,
+.TimeTable th {
+  border-width: 1px;
+  border-color: #000000;
+  border-style: solid;
+  text-align: center;
+
+  padding: 5px;
+}
+
+.TimeTable thead {
+  background-color: #ff7e7e;
+}
+
+th:nth-child(4) {
+  width: 150px;
+}
+
+th:nth-child(5) {
+  width: 150px;
+}
+
+
+.buy_button {
+  border-radius: 20px;
+  height: 35px;
+  width: 133px;
+} */
+
+.structureOfJazzTimeTable {
+  display: flex;
+  justify-content: center;
+}
+
+.scrollBar {
+  height: 200px !important;
+}
+
+.TimeTableHeaderItem:last-child {
+  width: 45px !important;
+}
